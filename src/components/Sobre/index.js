@@ -10,8 +10,8 @@ function Sobre (){
             <div className={styles.textsobre}>
                 <h2>Olá, eu sou </h2>
                 <h1>Jessica Magalhães</h1>
-                <p>Jessica Magalhães Tabosa, psicóloga formada pela Universidade de Fortaleza (unifor), ofereço a você. 
-                    Membro do PRAVIDA, minha paixão pela psicologia é evidente em cada consulta. 
+                <p>Jessica Magalhães Tabosa, psicóloga formada pela Universidade de Fortaleza (unifor), Membro do PRAVIDA, 
+                    minha paixão pela psicologia é evidente em cada consulta. 
                     Com experiência em Psicologia Hospitalar, Psicologia Escolar, Psicologia Jurídica e Psicologia Clínica, atuo utilizando o método Gestalt, 
                     que valoriza a integração holística da experiência humana.
 
