@@ -24,7 +24,7 @@ function Slider (){
             {data.map(item => (
                 <SwiperSlide key={item.id}>
                     <div className={styles.sliderimage}>
-                        <img src={item.image} alt=""/>
+                        <img src={item.image} alt={item.title}/>
                         <div className={styles.boxblack}></div>
                         <div className={styles.slidetext}>
                         <span>

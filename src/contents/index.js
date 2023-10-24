@@ -1,7 +1,7 @@
 const data = [
     {
     id: "1", 
-    image: "/img/banner1.jpg", 
+    image: "/img/banner1.webp", 
     title: "Terapia Gestalt", 
     description: "A terapia gestalt destaca-se por sua abordagem centrada no presente, visando a integração total das experiências individuais. Ao contrário de terapias convencionais, enfoca a totalidade da experiência em vez de tratar apenas sintomas isolados. "
     },
@@ -13,7 +13,7 @@ const data = [
     },
     {
     id: "3", 
-    image: "/img/banner3.jpg", 
+    image: "/img/banner3.webp", 
     title: "Autoconhecimento te Transforma", 
     description: "Na terapia gestalt, descobrir-se é um catalisador poderoso de transformação. Ao explorar profundamente emoções, pensamentos e comportamentos, os indivíduos ganham clareza sobre si mesmos. Esse autoconhecimento não apenas oferece insights, mas capacita escolhas alinhadas com a autenticidade."
     },
