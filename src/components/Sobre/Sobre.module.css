@@ -1,5 +1,4 @@
 .containersobre {
-    border: solid red 1px;
     width: 80%;
     display: flex;
     height: auto;
@@ -7,14 +6,24 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
+    text-align: center;
 }
-.containersobre h2, p{
+.containersobre h2 {
+    text-align: center;
     font-family: Poppins;
-    color: var(--global-text-color);
+    color: var(--dark-color);
+}
+
+.containersobre p{
+    text-align: center;
+    font-family: Poppins;
+    margin: 0.5rem;
+    color: var(--text-color-sobre);
 }
 
 
 .containersobre h1{
+    text-align: center;
     font-family: 'Baloo 2', sans-serif;
     color: var(--primary-color);
     font-weight: 800;
@@ -42,4 +51,26 @@
 
 .textsobre{
     width: 40%;
+
+}
+
+@media only screen and (max-width:900px) {
+    .containersobre {
+        flex-direction: column;
+        min-height: auto;
+        min-height: none;
+        
+    }
+    .textsobre{
+        width: 100%;
+    }
+    .sobreimg{
+        width: 350px;
+        height: 350px;
+    }
+    
+    .sobreimg img{
+        width: 340px;
+        height: 340px;
+    }
 }

@@ -72,7 +72,7 @@ function Header ({children}){
                     <div id="hamburguer" className={styles.navbartrigger} onClick={() => {handleclick()}}>☰</div>
                     <ul style={{display: display}}>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#sobre">Sobre mim</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#">Contato</a></li>
                         <li><a href="#">Locais de Atendimento</a></li>
                     </ul>

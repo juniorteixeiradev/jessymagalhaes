@@ -89,6 +89,7 @@
     color: white;
     width: 150px;
     height: 40px;
+    margin-right: 0.5rem;
     border: none;
     transition: ease-in-out 0.5s;
     cursor: pointer;
@@ -152,7 +153,7 @@
     }
     .topper ul{
         padding-left: 1rem;
-        gap:10px
+        gap:5px
     }
     .topper ul li{
         width: 30px;
@@ -164,8 +165,8 @@
 
     .loc{
         width: auto;
-        /* border: solid blue 2px; */
-        display: flex;
+        border: solid blue 2px;
+        display: none;
         justify-content: center;
         align-items: center;
     }
@@ -181,7 +182,7 @@
     }
 
     .contact svg{
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
@@ -198,6 +199,7 @@
         align-items: center;
         position: absolute;
         top: 80px;
+        text-align: center;
         background-color: var(--white-color2)
     }
 

@@ -13,12 +13,14 @@ function Sobre (){
                 <p>Jessica Magalhães Tabosa, psicóloga formada pela Universidade de Fortaleza (unifor), ofereço a você. 
                     Membro do PRAVIDA, minha paixão pela psicologia é evidente em cada consulta. 
                     Com experiência em Psicologia Hospitalar, Psicologia Escolar, Psicologia Jurídica e Psicologia Clínica, atuo utilizando o método Gestalt, 
-                    que valoriza a integração holística da experiência humana. 
-                    Você merece atenção especializada e personalizada, e é exatamente isso que eu crio,
+                    que valoriza a integração holística da experiência humana.
+
+                    <p>Você merece atenção especializada e personalizada, e é exatamente isso que eu crio,
                     Imagine uma jornada de autoconhecimento e bem-estar, 
                     guiada pelo poder transformador do método Gestalt. 
                     Trabalhando com crianças, adolescentes, adultos e idosos, meu desejo é ser sua parceira nesse processo, 
                     auxiliando-o a superar desafios e a alcançar um estado de equilíbrio emocional. 
+                    </p>
                     Não espere para investir em seu bem-estar mental! 
                     Marque sua consulta comigo e embarque em uma jornada de autodescoberta e crescimento,
                     Sua saúde mental é uma prioridade, e estou aqui para oferecer o suporte necessário. 
