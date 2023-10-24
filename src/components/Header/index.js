@@ -67,7 +67,7 @@ function Header ({children}){
 
                 <nav className={styles.navbar}>
                     <div className={styles.logo}>
-                        <img src="./img/logodefault.webp"></img>
+                        <img src="./img/logodefault.webp" alt="Logo Jessica Magalhães"></img>
                     </div>
                     <div id="hamburguer" className={styles.navbartrigger} onClick={() => {handleclick()}}>☰</div>
                     <ul style={{display: display}}>
