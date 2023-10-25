@@ -39,7 +39,7 @@ function Header ({children}){
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, [verResize]);
+    }, [handleScroll],[verResize],[handleResize]);
 
     return (
         <><div className={styles.topper}>
