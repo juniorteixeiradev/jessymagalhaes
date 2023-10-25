@@ -13,15 +13,12 @@
     font-family: Poppins;
     color: var(--dark-color);
 }
-
 .containersobre p{
     text-align: center;
     font-family: Poppins;
     margin: 0.5rem;
     color: var(--text-color-sobre);
 }
-
-
 .containersobre h1{
     text-align: center;
     font-family: 'Baloo 2', sans-serif;
@@ -29,7 +26,6 @@
     font-weight: 800;
     font-size: 3rem;
 }
-
 .sobreimg{
     background: #00F260;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
@@ -41,18 +37,17 @@
     justify-content: center;
     align-items: center;
 }
-
 .sobreimg img{
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     width: 390px;
     height: 390px;
     object-fit:cover;
 }
-
 .textsobre{
     width: 40%;
-
 }
+/* BOXES ESPECIALIADES */
+
 
 @media only screen and (max-width:900px) {
     .containersobre {

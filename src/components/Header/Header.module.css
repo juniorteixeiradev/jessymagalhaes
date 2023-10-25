@@ -116,6 +116,12 @@
     gap: 2rem;
 }
 
+.navbar.fixed {
+    top: 0; /* Altura da classe .topper */
+    position: fixed;
+    width: 100vw;
+}
+
 .navbar ul li {
     list-style: none;
 
