@@ -51,7 +51,7 @@ function Header ({children}){
                 <BsWhatsapp /> (88) 99738-6828
             </div>
             <ul>
-                <li><a href="https://www.instagram.com/psijessicamagalhaes" target="_blank">
+                <li><a href="https://www.instagram.com/psijessicamagalhaes" target="_blank" rel="noreferrer">
                     <SlSocialInstagram />
                 </a></li>
                 <li><a href="#"><TiSocialFacebookCircular /></a></li>
