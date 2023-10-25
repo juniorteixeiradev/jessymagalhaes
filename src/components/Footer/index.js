@@ -3,7 +3,7 @@ function Footer ({children}){
     
     
     return (
-        <div>
+        <div className={styles.footer}>
             {children}
         </div>
     );

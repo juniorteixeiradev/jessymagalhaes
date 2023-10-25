@@ -32,14 +32,14 @@ function Header ({children}){
 
 
     
-    useEffect(() => {
+useEffect(() => {
         handleScroll();
         verResize();
 
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, [handleScroll],[verResize],[handleResize]);
+}, [handleResize]);
 
     return (
         <><div className={styles.topper}>
