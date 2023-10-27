@@ -1,0 +1,6 @@
+.footer {
+    width: 100%;
+    background-color: var(--dark-color2);
+    height: 500px;
+    bottom: 0;
+}

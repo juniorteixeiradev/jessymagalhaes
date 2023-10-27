@@ -1,3 +1,6 @@
+//react icons
+
+//conteudo dos slides
 const data = [
     {
     id: "1", 
@@ -19,4 +22,26 @@ const data = [
     },
 ];
 
-export default data;
+//conteudo das boxes
+const boxcontents = [
+    {
+    id: "1",
+    title: "Resolução de Conflitos Internos através da Totalidade",
+    description: "Descubra como a abordagem da Gestalt pode ajudar você a entender a totalidade de seus pensamentos, sentimentos e comportamentos. Enxergar o quadro completo permite resolver conflitos internos de uma forma mais integrada e eficaz. Está pronto para experimentar uma nova perspectiva sobre si mesmo?",
+    icon:"/img/icons/100.png"
+    },
+    {
+    id: "2",
+    title: "Empoderamento Pessoal através da Consciência do Momento Presente",
+    description: "Você desenvolverá uma consciência profunda do momento presente. Isso não apenas proporciona uma maior compreensão de suas ações, mas também permite que você assuma o controle de sua vida. Seja o protagonista da sua história. Venha descobrir como a atenção ao 'aqui e agora' pode transformar a sua jornada.",
+    icon: "/img/icons/consciencia.png"
+    },
+    {
+    id: "3",
+    title: "Autoconhecimento Profundo e Transformação Pessoal",
+    description: "Experimente o poder do autoconhecimento profundo com a Gestalt. Nossa psicóloga especialista irá guiá-lo(a) em uma jornada de descoberta pessoal, ajudando-o(a) a identificar padrões, crenças limitantes e a desenvolver uma compreensão mais profunda de quem você é. Está preparado(a) para uma transformação positiva em sua vida?",
+    icon: "/img/icons/philosophy.png"
+    }
+]
+
+module.exports = {data, boxcontents}

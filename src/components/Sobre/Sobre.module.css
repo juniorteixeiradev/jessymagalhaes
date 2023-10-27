@@ -1,12 +1,22 @@
 .containersobre {
     width: 80%;
     display: flex;
+    flex-direction: column;
     height: auto;
     min-height: 800px;
     align-items: center;
     justify-content: center;
     gap: 3rem;
     text-align: center;
+}
+.sobremim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+
 }
 .containersobre h2 {
     text-align: center;
@@ -36,6 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .sobreimg img{
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
@@ -47,6 +58,66 @@
     width: 40%;
 }
 /* BOXES ESPECIALIADES */
+.boxsobrecontainer{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxsobreitemcontainer{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.boxsobreitem{
+    border-radius: 10px 10px 10px 10px;
+    background-color:#00F260;
+    width: 30%;
+    height: auto;
+    padding: 1rem;
+    min-height: 350px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: ease-in-out 0.5s;
+    transform: scale(1.0);
+}
+.boxsobreitem:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.5s;
+}
+.boxsobreitemtitle{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    padding-top: 0.5rem;
+    
+}
+.boxsobreitem p{
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 300;
+}
+.boxsobreitem h2{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.boxsobreitem:nth-child(1){
+    background-color:#AEA37C;
+}
+.boxsobreitem:nth-child(2){
+    background-color:#a91443;
+}
+.boxsobreitem:nth-child(3){
+    background-color:#B0C7E8;
+}
+
+
 
 
 
@@ -69,5 +140,28 @@
     .sobreimg img{
         width: 340px;
         height: 340px;
+    }
+
+    /**/
+    .boxsobrecontainer{
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .boxsobreitemcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+    }
+    .boxsobreitem{
+        width: 85%;
+        max-width: 350px;
+    }
+    .sobremim{
+        flex-direction: column;
     }
 }

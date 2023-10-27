@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import "swiper/css/bundle";
 import "swiper/css/autoplay";
-import data from "../../contents";
+import { data } from "../../contents";
 function Slider (){
     
 

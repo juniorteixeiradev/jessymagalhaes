@@ -1,13 +1,15 @@
 import styles from "./Sobre.module.css";
 import button from "../Header/Header.module.css";
+import { boxcontents } from "../../contents";
 
 function Sobre (){
     return (
-        <div id="sobre" className={styles.containersobre}>
+        <div className={styles.containersobre}>
+            <div id="sobre" className={styles.sobremim}>
             <div className={styles.sobreimg}>
-                <img src="/img/jessy.webp" alt="Jessica Magalhães"/>
+                <img  src="/img/jessy.webp" alt="Jessica Magalhães"/>
             </div>
-            <div className={styles.textsobre}>
+            <div  className={styles.textsobre}>
                 <h2>Olá, eu sou </h2>
                 <h1>Jessica Magalhães</h1>
                 <p>Jessica Magalhães Tabosa, psicóloga formada pela Universidade de Fortaleza (unifor), Membro do PRAVIDA, 
@@ -29,6 +31,30 @@ function Sobre (){
                     <button className={button.btn}>Agendar Consulta </button>
                     
                 
+            </div>
+            </div>
+            
+            <div className={styles.boxsobrecontainer}>
+                        <div className={styles.boxsobrecontent}>
+                            <h1> Porque ter acompanhamento Psicológico? 
+                            </h1>
+                <div className={styles.boxsobreitemcontainer}>
+            {
+                boxcontents.map(item => (
+                    
+                            <div key={item.id} className={styles.boxsobreitem}>
+                                <img src={item.icon} width="70" height="70" alt={item.boxsobreitemtitle} />
+                                <div className={styles.boxsobreitemtitle}>
+                                    <h2>{item.title}</h2>
+                                </div>
+                                
+                                <p>{item.description}</p>
+                            </div>
+                    
+                ))
+            }
+                </div>
+                    </div>
             </div>
             
 
