@@ -1,0 +1,84 @@
+.locaiscontainer{
+    width: 100%;
+    background-color: #e0e0de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    
+}
+
+.locaisinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.locaisinfo h1{
+    left: 0;
+    text-align: center;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: green;
+}
+.locaisinfo h2 {
+    text-align: center;
+    font-family: Poppins;
+    color: var(--dark-color);
+}
+.locaisinfo p{
+    font-family: Poppins;
+    margin: 0.5rem;
+    color: var(--text-color-sobre);
+}
+.locaiscontainer iframe{
+    border: none;
+}
+
+.btn {
+    border-radius: 5px 5px 5px 5px;
+    background-color: green;
+    color: white;
+    width: 80%;
+    height: 40px;
+    border: none;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+}
+.maps{
+    width:600px;
+    height: 450px;
+    padding: 0.5rem;
+}
+@media only screen and (max-width:900px) {
+    .locaiscontainer{
+        width: 100%;
+        background-color: #e0e0de;
+        display: flex;
+        flex-direction: column;
+        gap:3rem;
+        
+    }
+    .locaisinfo h1{
+        font-size: 30px;
+    }
+    .locaisinfo h2{
+        font-size: 20px;
+    }
+    .locaisinfo p{
+        font-size: 14px;
+    }
+    .locaisinfo{
+        justify-content: center;
+        align-items: center;
+    }
+    .maps{
+        width:100%;
+        height: 250px;
+    }
+}

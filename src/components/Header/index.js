@@ -5,6 +5,7 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { TiSocialFacebookCircular, TiSocialYoutube } from "react-icons/ti";
 import { useCallback, useEffect, useState } from "react";
 import handleScroll from "./fixedNavbar.js";
+import { Link, animateScroll as scroll } from 'react-scroll';
 function Header ({children}){
     const [display, setDisplay] = useState();
     const [displaystatus, setDisplayStatus] = useState(false);
@@ -29,8 +30,6 @@ function Header ({children}){
     function verResize () {
         window.addEventListener('resize', handleResize);
     }
-
-
     
 useEffect(() => {
         handleScroll();
@@ -41,8 +40,9 @@ useEffect(() => {
         };
 }, [handleResize]);
 
+
     return (
-        <><div className={styles.topper}>
+        <><div id="topper" className={styles.topper}>
             <div className={styles.loc}>
                 <LiaMapMarkerAltSolid /> Av. 13 de Maio, 1116 - Clinica Sefora Madina.
             </div>
@@ -71,10 +71,10 @@ useEffect(() => {
                     </div>
                     <div id="hamburguer" className={styles.navbartrigger} onClick={() => {handleclick()}}>☰</div>
                     <ul style={{display: display}}>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Locais de Atendimento</a></li>
+                        <li><Link to="topper" spy={true} smooth={true} >Home</Link></li>
+                        <li><Link to="sobre" spy={true} smooth={true} >Sobre</Link></li>
+                        <li><Link to="contato" spy={true} smooth={true} >Contato</Link></li>
+                        <li><Link to="locais" spy={true} smooth={true} >Locais de atendimento</Link></li>
                     </ul>
                     <button className={styles.btn}>Agendar Consulta </button>
                 </nav>

@@ -5,9 +5,9 @@ import { boxcontents } from "../../contents";
 function Sobre (){
     return (
         <div className={styles.containersobre}>
-            <div id="sobre" className={styles.sobremim}>
+            <div className={styles.sobremim}>
             <div className={styles.sobreimg}>
-                <img  src="/img/jessy.webp" alt="Jessica Magalhães"/>
+                <img  id="sobre" src="/img/jessy.webp" alt="Jessica Magalhães"/>
             </div>
             <div  className={styles.textsobre}>
                 <h2>Olá, eu sou </h2>

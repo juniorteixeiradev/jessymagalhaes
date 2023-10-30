@@ -23,12 +23,11 @@ const data = [
 ];
 
 //conteudo das boxes
-const boxcontents = [
-    {
+const boxcontents = [{
     id: "1",
-    title: "Resolução de Conflitos Internos através da Totalidade",
-    description: "Descubra como a abordagem da Gestalt pode ajudar você a entender a totalidade de seus pensamentos, sentimentos e comportamentos. Enxergar o quadro completo permite resolver conflitos internos de uma forma mais integrada e eficaz. Está pronto para experimentar uma nova perspectiva sobre si mesmo?",
-    icon:"/img/icons/100.png"
+    title: "Autoconhecimento Profundo e Transformação Pessoal",
+    description: "Experimente o poder do autoconhecimento profundo comigo. Eu irei guiá-lo(a) em uma jornada de descoberta pessoal, ajudando-o(a) a identificar padrões, crenças limitantes e a desenvolver uma compreensão mais profunda de quem você é. Está preparado(a) para uma transformação positiva em sua vida? Marque já sua consulta!! ",
+    icon: "/img/icons/philosophy.png"
     },
     {
     id: "2",
@@ -38,10 +37,11 @@ const boxcontents = [
     },
     {
     id: "3",
-    title: "Autoconhecimento Profundo e Transformação Pessoal",
-    description: "Experimente o poder do autoconhecimento profundo com a Gestalt. Nossa psicóloga especialista irá guiá-lo(a) em uma jornada de descoberta pessoal, ajudando-o(a) a identificar padrões, crenças limitantes e a desenvolver uma compreensão mais profunda de quem você é. Está preparado(a) para uma transformação positiva em sua vida?",
-    icon: "/img/icons/philosophy.png"
+    title: "Resolução de Conflitos Internos através da Totalidade",
+    description: "Descubra como a abordagem da Gestalt pode ajudar você a entender a totalidade de seus pensamentos, sentimentos e comportamentos. Enxergar o quadro completo permite resolver conflitos internos de uma forma mais integrada e eficaz. Está pronto para experimentar uma nova perspectiva sobre si mesmo?",
+    icon:"/img/icons/100.png"
     }
+    
 ]
 
 module.exports = {data, boxcontents}
