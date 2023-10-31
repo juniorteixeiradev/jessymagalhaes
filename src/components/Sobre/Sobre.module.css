@@ -113,26 +113,25 @@
     
 }
 .boxsobreitem p{
-    color: #fff;
+    color: #000;
     font-family: Poppins;
     font-weight: 300;
 }
 .boxsobreitem h2{
     font-family: Poppins;
     font-size: 1.2rem;
-    color: #fff;
+    color: #000;
 }
 
 .boxsobreitem:nth-child(1){
     background-color:#F5B700;
 }
 .boxsobreitem:nth-child(2){
-    background-color:#DC0073;
+    background-color: #FF0066;
 }
 .boxsobreitem:nth-child(3){
     background-color:#008BF8;
 }
-
 
 
 

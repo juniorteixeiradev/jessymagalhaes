@@ -10,9 +10,9 @@ body{
   scroll-behavior: smooth;
 }
 :root{
-  --primary-color: #00CECB;
-  --primary-color: #279AF1;
-  /* --primary-color: #253C78; */
+  /* --primary-color: #00CECB; */
+  /* --primary-color: #279AF1; */
+  --primary-color: #253C78;
   --title-color: #fff;
   --white-color2: #f1f1f1;
   --acento-color: #dbd8d8;
