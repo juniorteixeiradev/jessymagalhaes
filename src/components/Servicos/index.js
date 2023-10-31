@@ -9,7 +9,7 @@ function Servicos () {
             {
                 especialidades.map(item => (
                 <div key={item.id} className={styles.servicosbox}>
-                    <img src={item.img} />
+                    <img src={item.img} alt={item.nome}/>
                     <div className={styles.servicosboxdesc}>
                     <h2>{item.nome}</h2>
                     <span>{item.description}</span>

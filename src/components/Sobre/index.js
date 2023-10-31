@@ -43,7 +43,7 @@ function Sobre (){
                 boxcontents.map(item => (
                     
                             <div key={item.id} className={styles.boxsobreitem}>
-                                <img src={item.icon} width="70" height="70" alt={item.boxsobreitemtitle} />
+                                <img src={item.icon} width="70" height="70" alt={item.title} />
                                 <div className={styles.boxsobreitemtitle}>
                                     <h2>{item.title}</h2>
                                 </div>

@@ -41,10 +41,10 @@ const { display, handleClick} = useResponsiveDisplay();
                     </div>
                     <div id="hamburguer" className={styles.navbartrigger} onClick={() => {handleClick()}}>☰</div>
                     <ul style={{display: display}}>
-                        <li><Link to="topper" spy={true} smooth={true} >Home</Link></li>
-                        <li><Link to="sobre" spy={true} smooth={true} >Sobre</Link></li>
-                        <li><Link to="contato" spy={true} smooth={true} >Contato</Link></li>
-                        <li><Link to="locais" spy={true} smooth={true} >Locais de atendimento</Link></li>
+                        <li><Link to="topper" spy={true} smooth={true} rel="noreferrer">Home</Link></li>
+                        <li><Link to="sobre" spy={true} smooth={true} rel="noreferrer">Sobre</Link></li>
+                        <li><Link to="contato" spy={true} smooth={true} rel="noreferrer">Contato</Link></li>
+                        <li><Link to="locais" spy={true} smooth={true} rel="noreferrer">Locais de atendimento</Link></li>
                     </ul>
                     <button className={styles.btn}><a href="https://wa.me/5585997386828?text=Olá%20Gostaria%20de%20saber%20sobre%20marcação%20de%20consulta!" target="_blank" rel="noreferrer">Agendar Consulta</a> </button>
                 </nav>

@@ -1,20 +1,27 @@
-import React, { lazy, Suspense } from 'react';
+// import React, { lazy, Suspense } from 'react';
 import styles from "./ContainerMiddle.module.css";
 
 // Importando os componentes de forma lazy
-const Slider = lazy(() => import("../Slider"));
-const Sobre = lazy(() => import("../Sobre"));
-const Contato = lazy(() => import("../Contato"));
-const Coments = lazy(() => import("../Coments"));
-const Servicos = lazy(() => import("../Servicos"));
-const Locais = lazy(() => import("../Locais"));
+// const Slider = lazy(() => import("../Slider"));
+// const Sobre = lazy(() => import("../Sobre"));
+// const Contato = lazy(() => import("../Contato"));
+// const Coments = lazy(() => import("../Coments"));
+// const Servicos = lazy(() => import("../Servicos"));
+// const Locais = lazy(() => import("../Locais"));
+
+import Slider from '../Slider';
+import Sobre from '../Sobre';
+import Contato from '../Contato';
+import Coments from '../Coments';
+import Servicos from '../Servicos';
+import Locais from '../Locais';
 function ContainerMiddle (){
     
     return (
         <div className={styles.containermiddle}>
             {/* <div className={styles.banner}>
             </div> */}
-            <Suspense fallback={<div className={styles.loader}></div>}>
+            {/* <Suspense fallback={<div className={styles.loader}></div>}> */}
             <Slider>
             </Slider>
             <Sobre>
@@ -23,7 +30,7 @@ function ContainerMiddle (){
             <Coments />
             <Locais />
             <Contato />
-            </Suspense>
+            {/* </Suspense> */}
         </div>
     );
 }
