@@ -15,25 +15,15 @@ function ContainerMiddle (){
             {/* <div className={styles.banner}>
             </div> */}
             <Suspense fallback={<div className={styles.loader}></div>}>
-                <Slider>
-                </Slider>
+            <Slider>
+            </Slider>
+            <Sobre>
+            </Sobre>
+            <Servicos/>
+            <Coments />
+            <Locais />
+            <Contato />
             </Suspense>
-            <Suspense fallback={<div className={styles.loader}></div>}>
-                <Sobre>
-                </Sobre>
-            </Suspense>
-            <Suspense fallback={<div className={styles.loader}></div>}>
-                <Servicos/>
-            </Suspense>
-            <Suspense fallback={<div className={styles.loader}></div>}>
-                <Coments />
-                </Suspense>
-            <Suspense fallback={<div className={styles.loader}></div>}>
-                <Locais />
-                <Contato />
-            </Suspense>
-            
-            
         </div>
     );
 }
