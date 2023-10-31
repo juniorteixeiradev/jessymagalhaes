@@ -19,7 +19,7 @@
     font-family: 'Baloo 2', sans-serif;
     font-weight: 800;
     font-size: 3rem;
-    color: green;
+    color: var(--primary-color);
 }
 .locaisinfo h2 {
     text-align: center;
@@ -37,7 +37,7 @@
 
 .btn {
     border-radius: 5px 5px 5px 5px;
-    background-color: green;
+    background-color: var(--primary-color);
     color: white;
     width: 80%;
     height: 40px;

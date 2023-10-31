@@ -2,7 +2,8 @@ import styles from "./Header.module.css";
 import { LiaMapMarkerAltSolid } from 'react-icons/lia';
 import { BsFillTelephoneOutboundFill, BsWhatsapp } from 'react-icons/bs';
 import { SlSocialInstagram } from "react-icons/sl";
-import { TiSocialFacebookCircular, TiSocialYoutube } from "react-icons/ti";
+import { TiSocialFacebookCircular} from "react-icons/ti";
+import {BiLogoLinkedin} from "react-icons/bi";
 import { Link } from 'react-scroll';
 
 import useResponsiveDisplay from "./functions/useResponsiveDisplay";
@@ -25,7 +26,7 @@ const { display, handleClick} = useResponsiveDisplay();
                     <SlSocialInstagram />
                 </a></li>
                 <li><a href="https://www.instagram.com/psijessicamagalhaes" target="_blank" rel="noreferrer"><TiSocialFacebookCircular /></a></li>
-                <li><a href="https://www.instagram.com/psijessicamagalhaes" target="_blank" rel="noreferrer"><TiSocialYoutube /></a></li>
+                <li><a href="https://www.linkedin.com/in/jessica-magalh%C3%A3es-tabosa-a25264212/" target="_blank" rel="noreferrer"><BiLogoLinkedin /></a></li>
             </ul>
         </div>
         
