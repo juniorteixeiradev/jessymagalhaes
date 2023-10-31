@@ -8,7 +8,7 @@ function Contato (){
             <div className={styles.locaisinfo}>
                 <h1>Fale conosco:</h1>
                 <h2>Atendimento rápido pelos nossos canais de comunicação.</h2>
-                <p id="locicon"><FiMapPin /> Av. 13 de Maio, 1116 - Clinica Sefora Madina.</p>
+                <p id="locicon"><FiMapPin /> Av. 13 de Maio, 1116 - Clinica Sefora Medina.</p>
                 
             
                 <p><BsFillTelephoneOutboundFill /> (85) 99738-6828 - Telefone</p>

@@ -50,9 +50,10 @@
 }
 .sobreimg img{
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    width: 390px;
-    height: 390px;
+    width: 395px;
+    height: 395px;
     object-fit:cover;
+    object-position: 10% 30%;
 }
 .textsobre{
     width: 40%;

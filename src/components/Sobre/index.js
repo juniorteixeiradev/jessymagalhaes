@@ -7,7 +7,7 @@ function Sobre (){
         <div className={styles.containersobre}>
             <div className={styles.sobremim}>
             <div className={styles.sobreimg}>
-                <img  id="sobre" src="/img/jessy.webp" alt="Jessica Magalhães"/>
+                <img  id="sobre" src="/img/jessy.png" alt="Jessica Magalhães"/>
             </div>
             <div  className={styles.textsobre}>
                 <h2>Olá, eu sou </h2>

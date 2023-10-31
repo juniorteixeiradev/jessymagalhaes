@@ -7,6 +7,7 @@ const Sobre = lazy(() => import("../Sobre"));
 const Contato = lazy(() => import("../Contato"));
 const Coments = lazy(() => import("../Coments"));
 const Servicos = lazy(() => import("../Servicos"));
+const Locais = lazy(() => import("../Locais"));
 function ContainerMiddle (){
     
     return (
@@ -14,14 +15,25 @@ function ContainerMiddle (){
             {/* <div className={styles.banner}>
             </div> */}
             <Suspense fallback={<div className={styles.loader}></div>}>
-            <Slider>
-            </Slider>
-            <Sobre>
-            </Sobre>
-            <Servicos/>
-            <Coments />
-            <Contato />
+                <Slider>
+                </Slider>
             </Suspense>
+            <Suspense fallback={<div className={styles.loader}></div>}>
+                <Sobre>
+                </Sobre>
+            </Suspense>
+            <Suspense fallback={<div className={styles.loader}></div>}>
+                <Servicos/>
+            </Suspense>
+            <Suspense fallback={<div className={styles.loader}></div>}>
+                <Coments />
+                </Suspense>
+            <Suspense fallback={<div className={styles.loader}></div>}>
+                <Locais />
+                <Contato />
+            </Suspense>
+            
+            
         </div>
     );
 }

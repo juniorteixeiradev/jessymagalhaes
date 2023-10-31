@@ -5,7 +5,7 @@ function Servicos () {
     return (
         <div className={styles.containerservicos}>
             <h1>Nossas especialidades</h1>
-            <h2>Atendemos a diversos públicos</h2>
+            <h2>Atendemos a diversos públicos!</h2>
             {
                 especialidades.map(item => (
                 <div key={item.id} className={styles.servicosbox}>
