@@ -11,10 +11,10 @@ function Contato (){
                 <p id="locicon"><FiMapPin /> Av. 13 de Maio, 1116 - Clinica Sefora Madina.</p>
                 
             
-                <p><BsFillTelephoneOutboundFill /> (88) 99738-6828 - Telefone</p>
-                <p><BsWhatsapp /> (88) 99738-6828 - Whatsapp</p>
+                <p><BsFillTelephoneOutboundFill /> (85) 99738-6828 - Telefone</p>
+                <p><BsWhatsapp /> (85) 99738-6828 - Whatsapp</p>
                 <p><BsEnvelopeAt/> jessymagalhaespsi@gmail.com</p>
-                <button className={styles.btn}><BsWhatsapp /> Fale conosco </button>
+                <button className={styles.btn}><BsWhatsapp /> <a href="https://wa.me/5585997386828?text=Olá%20Gostaria%20de%20saber%20sobre%20marcação%20de%20consulta!" target="_blank" rel="noreferrer">Fale conosco</a> </button>
             </div>
             
             <div>

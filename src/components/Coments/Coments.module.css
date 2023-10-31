@@ -1,0 +1,116 @@
+.containercoments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: var(--white-color2);
+    /* gap: 2rem; */
+}
+
+.containercoments h1{
+    text-align: center;
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 3rem;
+}
+.containercoments h2 {
+    text-align: center;
+    font-family: Poppins;
+    color: var(--dark-color);
+}
+.containercoments span {
+    text-align: center;
+    font-family: Poppins;
+    color: var(--dark-color);
+}
+.containercomentsbox{
+    /* border: solid 1px blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.comentsbox{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 0.8rem;
+    width: 366px;
+    height: auto;
+    min-height: 150px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.13), 0px 0px 2px 0px rgba(0, 0, 0, 0.05);
+    transition: ease-in-out 0.5s;
+    transform: scale(1.0);
+}
+
+.comentsbox:hover{
+    transition: ease-in-out 0.5s;
+    transform: scale(1.05);
+}
+.comentsbox img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.comentsboxnome{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+.comentsboxcontent{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+
+/** stars **/
+.rating {
+    display: flex;
+}
+
+.rating label {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    background-image: url("../../../public/img/icons/star.png"); /* Substitua com a URL da sua estrela amarela preenchida */
+    background-size: cover;
+}
+
+.ratingbig {
+    display: flex;
+}
+
+.ratingbig label {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url("../../../public/img/icons/star.png"); /* Substitua com a URL da sua estrela amarela preenchida */
+    background-size: cover;
+}
+
+@media only screen and (max-width:1000px) {
+    .containercomentsbox{
+        width: 100%;
+    }
+    .containercoments h1{
+        font-size: 2rem;
+    }
+    .containercoments h2{
+        font-size: 1rem;
+    }
+    .comentsbox{
+        width: 75%;
+        height: 150px;
+    }
+
+}

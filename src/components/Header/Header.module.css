@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 .headercontainer{
     /* border: red solid 1px; */
     font-family: 'Baloo 2', sans-serif;
@@ -99,6 +99,12 @@ html {
 .btn:hover{
     transform: scale(1.1);
     transition: ease-in-out 0.5s;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: Poppins;
 }
 .navbar {
     background-color: var(--white-color2);
@@ -212,7 +218,7 @@ html {
         background-color: var(--white-color2)
     }
     .navbar.fixed {
-        top: -8px; /* Altura da classe .topper */
+        top: -3px; /* Altura da classe .topper */
         position: fixed;
         width: 100vw;
     }

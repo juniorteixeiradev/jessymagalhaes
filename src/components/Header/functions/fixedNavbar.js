@@ -1,4 +1,7 @@
-import styles from "./Header.module.css";
+/**
+ * Função criada para deixar a navbarfixa
+ */
+import styles from "../Header.module.css"
 const handleScroll = () => {
     const navbar = document.querySelector(`nav`);
     //seleciono o elemento nav

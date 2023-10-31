@@ -28,7 +28,7 @@ function Sobre (){
                     Sua saúde mental é uma prioridade, e estou aqui para oferecer o suporte necessário. 
                     Agende sua consulta e inicie a transformação!
                     </p>
-                    <button className={button.btn}>Agendar Consulta </button>
+                    <button className={button.btn}><a href="https://wa.me/5585997386828?text=Olá%20Gostaria%20de%20saber%20sobre%20marcação%20de%20consulta!" target="_blank" rel="noreferrer">Agendar Consulta </a></button>
                     
                 
             </div>

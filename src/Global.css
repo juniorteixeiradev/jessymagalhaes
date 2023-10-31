@@ -10,15 +10,21 @@ body{
   scroll-behavior: smooth;
 }
 :root{
-  --primary-color: #68c1c3;
+  --primary-color: #00CECB;
+  --primary-color: #279AF1;
+  /* --primary-color: #253C78; */
   --title-color: #fff;
   --white-color2: #f1f1f1;
   --acento-color: #dbd8d8;
   --dark-color: #464949;
   --dark-color2: #314447;
   --hover-color: #d1c6b7;
-  --text-color-sobre: #7A7A7A;
-  --swiper-navigation-color:var(--primary-color);
-  --swiper-pagination-color:var(--primary-color);
+  /* --text-color-sobre: #7A7A7A; */
+  --text-color-sobre: #131112;
+  --swiper-navigation-color:#ccc;
+  --swiper-pagination-color:#ccc;
 }
 
+.swiper-slide{
+  background-color: var(--white-color2);
+}
