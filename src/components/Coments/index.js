@@ -51,10 +51,11 @@ function Coments (){
                 <SwiperSlide key={item.id}  style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <div key={item.id} className={styles.comentsbox}>
                 <div className={styles.comentsboxnome}>
-                    <img src={item.img} alt={item.nome}></img>
+                    <img src={item.img} alt={item.nome} className={styles.img1}></img>
                     <span>{item.nome}</span>
                 </div>
                 <Stars size="small"></Stars>
+                <img src="/img/comments/google.webp" width="45px" height="15px" alt="google"></img>
                 <div className={styles.comentsboxcontent}>
                 <h3>{item.comentario}</h3>
                 </div>

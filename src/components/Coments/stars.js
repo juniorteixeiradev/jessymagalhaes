@@ -1,26 +1,24 @@
 import styles from "./Coments.module.css"
-function Stars ({size}){
-    if(size === "big"){
+export default function Stars (props){
+    if(props.size === "big"){
         return (
             <div className={styles.ratingbig}>
-            <label for="star5"></label>
-            <label for="star4"></label>
-            <label for="star3"></label>
-            <label for="star2"></label>
-            <label for="star1"></label>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
         )
-    } else if(size === "small"){
+    } else if(props.size === "small"){
     return (
         <div className={styles.rating}>
-        <label for="star5"></label>
-        <label for="star4"></label>
-        <label for="star3"></label>
-        <label for="star2"></label>
-        <label for="star1"></label>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div ></div>
     </div>
     )
     }
 }
-
-export default Stars;

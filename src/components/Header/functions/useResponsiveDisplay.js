@@ -19,6 +19,7 @@ function useResponsiveDisplay() {
     //função que ve que a tela está menor que 800px pra que o navbar hamburguer apareça e a navbar normal suma
 
     const handleClick = useCallback(() => {
+        setDisplay("none")
         if (displayStatus) {
         setDisplay("none");
         } else {

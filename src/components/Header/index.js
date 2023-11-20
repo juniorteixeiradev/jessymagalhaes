@@ -5,6 +5,7 @@ import { SlSocialInstagram } from "react-icons/sl";
 import { TiSocialFacebookCircular} from "react-icons/ti";
 import {BiLogoLinkedin} from "react-icons/bi";
 import { Link } from 'react-scroll';
+import { MdCancelPresentation } from "react-icons/md";
 
 import useResponsiveDisplay from "./functions/useResponsiveDisplay";
 function Header ({children}){
@@ -40,12 +41,16 @@ const { display, handleClick} = useResponsiveDisplay();
                     <div className={styles.logo}>
                         <img src="./img/logomin.webp" alt="Logo Jessica Magalhães"></img>
                     </div>
+                    
+                    
                     <div id="hamburguer" className={styles.navbartrigger} onClick={() => {handleClick()}}>☰</div>
-                    <ul style={{display: display}}>
+                    <ul style={{display: display}} onClick={() => {handleClick()}}>
+                        
                         <li><Link to="topper" spy={true} smooth={true} href="#">Home</Link></li>
                         <li><Link to="sobre" spy={true} smooth={true} href="#sobre">Sobre</Link></li>
                         <li><Link to="contato" spy={true} smooth={true} href="#contato">Contato</Link></li>
                         <li><Link to="locais" spy={true} smooth={true} href="#locais">Locais de atendimento</Link></li>
+                        <div style={{justifyContent: 'flex-end'}} ><MdCancelPresentation/></div>
                     </ul>
                     <button className={styles.btn}><a href="https://wa.me/5585997386828?text=Olá%20Gostaria%20de%20saber%20sobre%20marcação%20de%20consulta!" target="_blank" rel="noreferrer">Agendar Consulta</a> </button>
                 </nav>

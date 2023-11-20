@@ -216,7 +216,8 @@ html {
         position: absolute;
         top:100%;
         text-align: center;
-        background-color: var(--white-color2)
+        background-color: var(--white-color2);
+        gap: 0.5rem;
     }
     .navbar.fixed {
         top: -3px; /* Altura da classe .topper */
@@ -227,6 +228,13 @@ html {
 
     .navbar ul.show {
         display: flex; 
+    }
+    .navbar ul li{
+        width: 100%;
+        padding-block: 0.3rem;
+    }
+    .navbar ul li:hover{
+        background: #ccc;
     }
 
     .navbartrigger {

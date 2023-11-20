@@ -53,7 +53,7 @@
     transition: ease-in-out 0.5s;
     transform: scale(1.05);
 }
-.comentsbox img{
+.img1{
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -78,7 +78,7 @@
     display: flex;
 }
 
-.rating label {
+.rating div {
     cursor: pointer;
     width: 18px;
     height: 18px;
@@ -90,7 +90,7 @@
     display: flex;
 }
 
-.ratingbig label {
+.ratingbig div {
     cursor: pointer;
     width: 30px;
     height: 30px;
