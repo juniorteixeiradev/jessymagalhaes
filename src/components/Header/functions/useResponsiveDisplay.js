@@ -4,7 +4,8 @@ import handleScroll from "./fixedNavbar";
 //Função da navbar fixa ao rolar
 
 function useResponsiveDisplay() {
-    const [display, setDisplay] = useState();
+    const [display, setDisplay] = useState("");
+    const [displayCancel, setDisplayCancel] = useState("");
     const [displayStatus, setDisplayStatus] = useState(false);
     //variaveis de estado
 
@@ -19,11 +20,12 @@ function useResponsiveDisplay() {
     //função que ve que a tela está menor que 800px pra que o navbar hamburguer apareça e a navbar normal suma
 
     const handleClick = useCallback(() => {
-        setDisplay("none")
         if (displayStatus) {
-        setDisplay("none");
+        setDisplay("none")
+        setDisplayCancel("none")
         } else {
-        setDisplay("flex");
+        setDisplay("flex")
+        setDisplayCancel("flex")
         }
         setDisplayStatus(!displayStatus);
     }, [displayStatus]);
@@ -54,6 +56,7 @@ function useResponsiveDisplay() {
         displayStatus,
         handleResize,
         handleClick,
+        displayCancel
     };
 }
 

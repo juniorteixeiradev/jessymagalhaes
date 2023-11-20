@@ -10,7 +10,7 @@ import { MdCancelPresentation } from "react-icons/md";
 import useResponsiveDisplay from "./functions/useResponsiveDisplay";
 function Header ({children}){
 //Chamando dentro do componente porque tem Hooks do react na função
-const { display, handleClick} = useResponsiveDisplay();
+const { display, displayCancel, handleClick} = useResponsiveDisplay();
 //Forma desconstruida do objeto
 
     return (
@@ -50,7 +50,7 @@ const { display, handleClick} = useResponsiveDisplay();
                         <li><Link to="sobre" spy={true} smooth={true} href="#sobre">Sobre</Link></li>
                         <li><Link to="contato" spy={true} smooth={true} href="#contato">Contato</Link></li>
                         <li><Link to="locais" spy={true} smooth={true} href="#locais">Locais de atendimento</Link></li>
-                        <div style={{justifyContent: 'flex-end'}} ><MdCancelPresentation/></div>
+                        <div style={{display: displayCancel }} className={styles.navbartrigger}><MdCancelPresentation/></div>
                     </ul>
                     <button className={styles.btn}><a href="https://wa.me/5585997386828?text=Olá%20Gostaria%20de%20saber%20sobre%20marcação%20de%20consulta!" target="_blank" rel="noreferrer">Agendar Consulta</a> </button>
                 </nav>
