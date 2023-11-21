@@ -1,9 +1,12 @@
 import { especialidades } from "../../contents";
 import styles from "./Servicos.module.css";
+import useScrollReveal from "../../core/useScrollReveal";
 
 function Servicos () {
+    const { useReveal } = useScrollReveal();
+    useReveal("#containerservicos");
     return (
-        <div className={styles.containerservicos}>
+        <div className={styles.containerservicos} id="containerservicos">
             <h1>Nossas especialidades</h1>
             <h2>Atendemos a diversos públicos!</h2>
             {

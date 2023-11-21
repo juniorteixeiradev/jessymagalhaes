@@ -8,8 +8,10 @@ import 'swiper/css/pagination';
 import "swiper/css/bundle";
 import "swiper/css/autoplay";
 import { data } from "../../contents";
+import useScrollReveal from "../../core/useScrollReveal";
 function Slider (){
-    
+    const { useReveal } = useScrollReveal();
+    useReveal(styles.slidercontainer);
 
     return (
         <div className={styles.slidercontainer}>

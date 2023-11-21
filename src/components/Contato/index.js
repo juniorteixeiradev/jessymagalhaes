@@ -1,9 +1,16 @@
 import styles from "./Contato.module.css";
 import Maps from "./maps";
+import useScrollReveal from "../../core/useScrollReveal";
 import { FiMapPin } from 'react-icons/fi';
 import { BsFillTelephoneOutboundFill, BsWhatsapp, BsEnvelopeAt } from 'react-icons/bs';
+
+
 function Contato (){
+    const { useReveal } = useScrollReveal();
+    useReveal("#contato");
+
     return (
+        
         <div className={styles.locaiscontainer} id="contato">
             <div className={styles.locaisinfo}>
                 <h1>Fale conosco:</h1>

@@ -1,10 +1,13 @@
 import styles from "./Locais.module.css";
+import useScrollReveal from "../../core/useScrollReveal";
 import { FiMapPin } from 'react-icons/fi';
-import { FaComputer } from 'react-icons/fa6'
+import { FaComputer } from 'react-icons/fa6';
 function Locais (){
+    const { useReveal } = useScrollReveal();
+    useReveal("#locais");
     return (
         <>
-        <div className={styles.separadorcontainer}>
+        <div className={styles.separadorcontainer} >
         <hr/><div className={styles.separador}></div><hr/>
         </div>
         <div id="locais" className={styles.locaiscontainer}>

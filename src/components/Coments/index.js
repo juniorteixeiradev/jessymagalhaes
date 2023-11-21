@@ -5,9 +5,13 @@ import {  useEffect, useState } from "react";
 
 import styles from "./Coments.module.css";
 import Stars from "./stars";
+import useScrollReveal from "../../core/useScrollReveal";
 
 
 function Coments (){
+    const { useReveal } = useScrollReveal();
+    useReveal("#containercomments");
+
     const [display, setDisplay] = useState(1);
 
     const atualizarDisplay = () => {
@@ -30,7 +34,7 @@ function Coments (){
 
 
     return(
-        <div className={styles.containercoments}>
+        <div className={styles.containercoments} id="containercomments">
             <h1>Depoimentos:</h1>
             <h2>Veja o que nossos clientes estão falando!</h2>
             

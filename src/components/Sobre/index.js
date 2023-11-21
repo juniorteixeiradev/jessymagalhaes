@@ -1,10 +1,16 @@
 import styles from "./Sobre.module.css";
 import button from "../Header/Header.module.css";
+import useScrollReveal from "../../core/useScrollReveal";
 import { boxcontents } from "../../contents";
+import Sobre2 from "../Sobre2";
 
-function Sobre (){
+function Sobre ({children}){
+
+    const { useReveal } = useScrollReveal();
+    useReveal("#containersobre", 'left', 2000, '100px');
     return (
-        <div className={styles.containersobre}>
+        
+        <div className={styles.containersobre} id="containersobre">
             <div className={styles.sobremim}>
             <div className={styles.sobreimg}>
                 <img  id="sobre" src="/img/jessy.webp" alt="Jessica Magalhães"/>
@@ -33,32 +39,9 @@ function Sobre (){
                 
             </div>
             </div>
-            
-            <div className={styles.boxsobrecontainer}>
-                        <div className={styles.boxsobrecontent}>
-                            <h1> Porque ter acompanhamento Psicológico? 
-                            </h1>
-                <div className={styles.boxsobreitemcontainer}>
-            {
-                boxcontents.map(item => (
-                    
-                            <div key={item.id} className={styles.boxsobreitem}>
-                                <img src={item.icon} width="70" height="70" alt={item.title} />
-                                <div className={styles.boxsobreitemtitle}>
-                                    <h2>{item.title}</h2>
-                                </div>
-                                
-                                <p>{item.description}</p>
-                            </div>
-                    
-                ))
-            }
-                </div>
-                    </div>
-            </div>
-            
-
+            {children}
         </div>
+        
 
     );
 }
