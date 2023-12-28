@@ -137,7 +137,7 @@ html {
 .navbar ul li a{
     cursor: pointer;
     text-align: none;
-    color: var(--dark-color);
+    color: #000;
     text-decoration: none;
     transition: all 0.5s;
 }
@@ -209,6 +209,7 @@ html {
 
     }
     .navbar ul {
+        animation: abrir 0.2s ease-in;
         display: none; 
         flex-direction: column;
         justify-content: center;
@@ -227,7 +228,7 @@ html {
     }
 
     .navbar ul.show {
-        display: flex; 
+        display: flex;
     }
     .navbar ul li{
         width: 100%;
@@ -245,4 +246,15 @@ html {
     }
 
     
+}
+
+
+@keyframes abrir {
+    from{
+        height: 0;
+    }
+
+    to{
+        height: 100%
+    }
 }

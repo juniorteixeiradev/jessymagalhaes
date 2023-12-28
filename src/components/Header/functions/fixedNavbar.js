@@ -23,7 +23,9 @@ const handleScroll = () => {
     
     // Remove o ouvinte de evento de rolagem quando o componente é desmontado
     return () => {
-        window.removeEventListener('scroll', handleScroll)}
+        window.removeEventListener('scroll', handleScroll)
+    
+    }
 }
 
 export default handleScroll;

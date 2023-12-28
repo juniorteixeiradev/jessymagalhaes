@@ -10,8 +10,7 @@ body{
   scroll-behavior: smooth;
 }
 :root{
-  /* --primary-color: #00CECB; */
-  /* --primary-color: #279AF1; */
+  --dark-purple:#140F2D;
   --primary-color: #253C78;
   --title-color: #fff;
   --white-color2: #f1f1f1;
@@ -19,7 +18,6 @@ body{
   --dark-color: #464949;
   --dark-color2: #314447;
   --hover-color: #d1c6b7;
-  /* --text-color-sobre: #7A7A7A; */
   --text-color-sobre: #131112;
   --swiper-navigation-color:#ccc;
   --swiper-pagination-color:#ccc;
