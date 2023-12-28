@@ -209,7 +209,7 @@ html {
 
     }
     .navbar ul {
-        animation: abrir 0.2s ease-in;
+        /* animation: abrir 0.2s linear; */
         display: none; 
         flex-direction: column;
         justify-content: center;
